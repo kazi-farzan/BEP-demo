@@ -1,0 +1,106 @@
+/* DOMAIN PAGE */
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  flex-grow: 1;
+  background-color: #D9E4EC;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.domains {
+  display: flex;
+  flex-direction: column;
+}
+
+.domain-title {
+  margin-top: 3rem;
+  margin-left: 5rem;
+  padding: 0 10rem;
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  color: #26AE60;
+  text-transform: uppercase;
+}
+
+.box-small {
+  height: 300px;
+  width: 100%;
+  max-width: 25rem;
+  min-width: 25rem;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  padding: 2rem;
+  background-color: #111;
+  transition: all .5s ease;
+  border-color: #26AE60;
+  border-width: 2px;
+  border-radius: 2rem;
+  border-style: solid;
+  margin: 2rem;
+}
+
+.box-small:hover {
+  transform: translateY(-5px);
+  border-color: #2880B9;
+  box-shadow: 0 13px 20px rgba(52, 152, 219, 0.5);
+}
+
+.box-small:hover .domain-svg {
+  fill: #2880B9;
+}
+
+.box-small:hover h4 {
+  color: #2880B9;
+}
+
+.svg-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ensure the SVG box takes full width */
+  margin-left: 3rem;
+}
+
+.box-small h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 1rem; /* Adjust margin as needed */
+  padding-right: 2.5rem;
+  color: #D9E4EC;
+  transition: all 0.5s ease;
+  margin-left: 2rem;
+}
+
+.domain-svg {
+  transition: all 0.5s ease;
+  width: 200px;
+  height: auto;
+  fill: #26AE60;
+}
+
+/* GRID LAYOUT */
+
+#grid1 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 10rem;
+}
+
+#grid2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
