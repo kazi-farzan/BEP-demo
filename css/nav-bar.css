@@ -1,0 +1,113 @@
+/* HERO PAGE  */
+
+#page1 {    
+  /* to stick it as a navbar */    
+  position: fixed;
+  top: 0%;
+  /*to size size */
+  width: 100%;    
+  flex-grow: 1.5;
+  z-index: 2;
+  background-color: #111; 
+  border-bottom-left-radius: 25px; 
+  border-bottom-right-radius: 25px;  
+  border-width: 0 0 2px ; /* Top Right Bottom Left */
+  border-style:dotted;
+  border-color: #2880B9;
+  display:flex;
+  flex-direction: row;  
+  justify-content:space-between;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+  
+.title-container {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 10px;  
+}
+  
+/* styles.css */
+.nav-bar-logo {    
+  white-space: nowrap;    
+  font-size: 4rem;
+  font-weight: 200;  
+  background: linear-gradient(90deg, #D9E4EC, #D9E4EC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+  
+.hero-title2 {
+  color: #3EEB57;
+  white-space: nowrap;
+}
+  
+.button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+  gap: 10px;  
+}
+
+.guideline-button1,
+.guideline-button2 {
+  display: block;
+  align-self: auto;  
+  /* Font Style  */
+  font-size: 1.25rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+  color: #D9E4EC;
+  white-space: nowrap; 
+
+  /* Button Style  */
+  border-radius: 50px;
+  border: 2px solid #3EEB57;  
+  padding: 10px 20px;
+  background-color: #111;
+  transition: transform 0.3s, box-shadow 0.3s;     
+}
+
+.guideline-button1:hover,
+.guideline-button2:hover {
+  transform: translateY(-5px);
+  /* box-shadow: 0px 20px 12px rgba(40, 128, 185, 0.5); */
+}
+  
+/* NAVBAR  */
+  
+.nav-bar {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  color: #D9E4EC;
+  gap: 40px;  
+  margin-top: 4rem;    
+}
+
+.nav-item {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #D9E4EC, #D9E4EC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.vertical-ruler {
+  border-left: 2px solid #D9E4EC;
+  height: 40px;    
+}
